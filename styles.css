@@ -8,29 +8,87 @@
     border-radius: 0 10px 0 10px;
 }
 
-/* .contactInformation {
+.contactInformation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .contactInformation__name {
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+    font-weight: 600;
+    font-family: 'Titillium Web', sans-serif;
+    position: relative; 
+    font-size: 40px;
+    line-height: 40px;
+    color: #355681;
 }
 
 .contactInformation__position {
+    margin-top: 0;
+    margin-bottom: 15px;
+
+    font-weight: 600;
+    font-family: 'Titillium Web', sans-serif;
+    position: relative; 
+    font-size: 30px;
+    line-height: 40px;
+    color: #788699;
 }
 
 .contactInformation__img {
+    display: block;
+    margin-bottom: 15px;
+    border-radius: 0 10% 0 10%;
 }
 
 .contactInformation__link {
-}
-
-.motivationLetter {
+    font-weight: 600;
+    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Muli', sans-serif;
+    position: relative;
+    font-size: 18px;
+    line-height: 20px;
+    color: #788699;
 }
 
 .motivationLetter__title {
+    margin-left: 55px;
+    margin-top: 35px;
+    margin-bottom: 15px;
+
+    font-weight: 600;
+    font-family: 'Titillium Web', sans-serif;
+    position: relative; 
+    font-size: 30px;
+    line-height: 40px;
+    color: #788699;
 }
 
 .motivationLetter__text {
+    margin-left: 25px;
+    margin-right: 25px;
+
+    font-weight: 600;
+    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Muli', sans-serif;
+    position: relative;
+    font-size: 18px;
+    line-height: 30px;
+    color: #788699;
 }
 
 .motivationLetter__title--second {
-} */
+    margin-left: 55px;
+    margin-top: 25px;
+    padding-bottom: 15px;
+
+    font-weight: 600;
+    font-family: 'Titillium Web', sans-serif;
+    position: relative; 
+    font-size: 20px;
+    line-height: 30px;
+    color: #788699;
+}
