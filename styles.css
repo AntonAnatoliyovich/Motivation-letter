@@ -10,8 +10,12 @@
 
 .contactInformation {
     display: flex;
+    justify-content: space-around;
+}
+
+.contactInformation__all {
+    display: flex;
     flex-direction: column;
-    align-items: center;
 }
 
 .contactInformation__name {
@@ -21,14 +25,14 @@
     font-weight: 600;
     font-family: 'Titillium Web', sans-serif;
     position: relative; 
-    font-size: 40px;
+    font-size: 52px;
     line-height: 40px;
     color: #355681;
 }
 
 .contactInformation__position {
     margin-top: 0;
-    margin-bottom: 15px;
+    margin-bottom: 175px;
 
     font-weight: 600;
     font-family: 'Titillium Web', sans-serif;
@@ -40,7 +44,8 @@
 
 .contactInformation__img {
     display: block;
-    margin-bottom: 15px;
+    margin-top: 15px;
+    margin-bottom: 0;
     border-radius: 0 10% 0 10%;
 }
 
@@ -56,8 +61,8 @@
 
 .motivationLetter__title {
     margin-left: 55px;
-    margin-top: 35px;
-    margin-bottom: 15px;
+    margin-top: 50px;
+    margin-bottom: 35px;
 
     font-weight: 600;
     font-family: 'Titillium Web', sans-serif;
@@ -70,6 +75,8 @@
 .motivationLetter__text {
     margin-left: 25px;
     margin-right: 25px;
+    margin-top: 0;
+    margin-bottom: 0;
 
     font-weight: 600;
     font-family: 'Titillium Web', sans-serif;
@@ -83,6 +90,7 @@
 .motivationLetter__title--second {
     margin-left: 55px;
     margin-top: 25px;
+    margin-bottom: 0;
     padding-bottom: 15px;
 
     font-weight: 600;
